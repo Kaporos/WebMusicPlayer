@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#main {
+    display: grid;
+    grid-template-columns: 1fr 4.5fr;
+    height: 100vh;
+    width: 100vw;
+}
+
+#sidebar {
+    background-color: black;
+}
+
+#app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightgray;
+}
+
+#player {
+    position: fixed;
+    bottom: 2vh;
+    background-color: red;
+    width: 75%;
+    height: 13vh;
+    border-radius: 20px;
+}
